@@ -11,11 +11,11 @@ class BaseViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.view.backgroundColor = .bgColor
-    setView()
+    setViewController()
     setAutoLayout()
   }
   
-  func setView() {
+  func setViewController() {
     
   }
   

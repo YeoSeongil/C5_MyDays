@@ -28,7 +28,7 @@ class SplashViewController: BaseViewController {
     $0.translatesAutoresizingMaskIntoConstraints = false
   }
   
-  override func setView() {
+  override func setViewController() {
     [logoImage, splashLabel].forEach {
       stackView.addArrangedSubview($0)
     }
